@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "RKGMOo+b9m3r7ptPmk1ZawyfS57aG8awa0MiSWSe+0ibbbTBP1Z0vUej0KXed2JQVbVkasxakg4XIKpVBKU3Og==",
+  "dgSpecHash": "iVs1NquQ+YAYCI6zNmCX9VHD35bnj3cfGxjklTTA+HpViG/ckRAc/18ZdoRyMWDzT9ujPLOF0f6Yly2zdcBH2A==",
   "success": true,
-  "projectFilePath": "D:\\dotnetnew\\skinet\\API\\API.csproj",
+  "projectFilePath": "D:\\appharu_new\\skinet\\API\\API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Dell\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0-preview.3.21201.2\\microsoft.data.sqlite.core.6.0.0-preview.3.21201.2.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0-preview.3.21201.2\\microsoft.entityframeworkcore.6.0.0-preview.3.21201.2.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.0-preview.3.21201.2\\microsoft.entityframeworkcore.abstractions.6.0.0-preview.3.21201.2.nupkg.sha512",
@@ -38,6 +41,7 @@
     "C:\\Users\\Dell\\.nuget\\packages\\system.componentmodel.annotations\\6.0.0-preview.3.21201.4\\system.componentmodel.annotations.6.0.0-preview.3.21201.4.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0-preview.3.21201.4\\system.diagnostics.diagnosticsource.6.0.0-preview.3.21201.4.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\Dell\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0-preview.3.21201.4\\system.runtime.compilerservices.unsafe.6.0.0-preview.3.21201.4.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.text.encodings.web\\6.0.0-preview.3.21201.4\\system.text.encodings.web.6.0.0-preview.3.21201.4.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\system.text.json\\6.0.0-preview.3.21201.4\\system.text.json.6.0.0-preview.3.21201.4.nupkg.sha512"
