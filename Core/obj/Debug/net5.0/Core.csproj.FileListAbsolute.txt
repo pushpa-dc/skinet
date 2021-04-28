@@ -10,3 +10,15 @@ D:\appharu_new\skinet\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
 D:\appharu_new\skinet\Core\obj\Debug\net5.0\Core.dll
 D:\appharu_new\skinet\Core\obj\Debug\net5.0\ref\Core.dll
 D:\appharu_new\skinet\Core\obj\Debug\net5.0\Core.pdb
+D:\dotnetnew\skinet\Core\obj\Debug\net5.0\Core.dll
+D:\dotnetnew\skinet\Core\obj\Debug\net5.0\Core.pdb
+D:\dotnetnew\skinet\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
+D:\dotnetnew\skinet\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\dotnetnew\skinet\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+D:\dotnetnew\skinet\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+D:\dotnetnew\skinet\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+D:\dotnetnew\skinet\Core\obj\Debug\net5.0\ref\Core.dll
+D:\dotnetnew\skinet\Core\bin\Debug\net5.0\Core.deps.json
+D:\dotnetnew\skinet\Core\bin\Debug\net5.0\Core.dll
+D:\dotnetnew\skinet\Core\bin\Debug\net5.0\ref\Core.dll
+D:\dotnetnew\skinet\Core\bin\Debug\net5.0\Core.pdb

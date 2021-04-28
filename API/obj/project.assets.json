@@ -501,6 +501,34 @@
         "runtime": {
           "lib/netcoreapp3.0/System.Text.Json.dll": {}
         }
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
+      },
+      "Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.0-preview.3.21201.2",
+          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.0-preview.3.21201.2",
+          "Microsoft.EntityFrameworkCore.Sqlite.Core": "6.0.0-preview.3.21201.2",
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.0-preview.3.21201.2",
+          "Swashbuckle.AspNetCore": "5.6.3"
+        },
+        "compile": {
+          "bin/placeholder/Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -1263,10 +1291,21 @@
         "system.text.json.6.0.0-preview.3.21201.4.nupkg.sha512",
         "system.text.json.nuspec"
       ]
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../Core/Core.csproj",
+      "msbuildProject": "../Core/Core.csproj"
+    },
+    "Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../Infrastructure/Infrastructure.csproj",
+      "msbuildProject": "../Infrastructure/Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0-preview.3.21201.2",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.0-preview.3.21201.2",
       "Microsoft.EntityFrameworkCore.Sqlite.Core >= 6.0.0-preview.3.21201.2",
@@ -1275,21 +1314,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dell\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Dell\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\appharu_new\\skinet\\API\\API.csproj",
+      "projectUniqueName": "D:\\dotnetnew\\skinet\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "D:\\appharu_new\\skinet\\API\\API.csproj",
+      "projectPath": "D:\\dotnetnew\\skinet\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\appharu_new\\skinet\\API\\obj\\",
+      "outputPath": "D:\\dotnetnew\\skinet\\API\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -1304,7 +1339,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\dotnetnew\\skinet\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\dotnetnew\\skinet\\Infrastructure\\Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1356,7 +1395,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
