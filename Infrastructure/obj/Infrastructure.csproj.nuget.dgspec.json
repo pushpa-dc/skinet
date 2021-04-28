@@ -1,18 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "D:\\dotnetnew\\skinet\\Infrastructure\\Infrastructure.csproj": {}
+    "D:\\appharu_new\\skinet\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\dotnetnew\\skinet\\Core\\Core.csproj": {
+    "D:\\appharu_new\\skinet\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnetnew\\skinet\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\appharu_new\\skinet\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\dotnetnew\\skinet\\Core\\Core.csproj",
+        "projectPath": "D:\\appharu_new\\skinet\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnetnew\\skinet\\Core\\obj\\",
+        "outputPath": "D:\\appharu_new\\skinet\\Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -54,19 +57,22 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\dotnetnew\\skinet\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\appharu_new\\skinet\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\dotnetnew\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\appharu_new\\skinet\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\dotnetnew\\skinet\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\appharu_new\\skinet\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\dotnetnew\\skinet\\Infrastructure\\obj\\",
+        "outputPath": "D:\\appharu_new\\skinet\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -82,8 +88,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\dotnetnew\\skinet\\Core\\Core.csproj": {
-                "projectPath": "D:\\dotnetnew\\skinet\\Core\\Core.csproj"
+              "D:\\appharu_new\\skinet\\Core\\Core.csproj": {
+                "projectPath": "D:\\appharu_new\\skinet\\Core\\Core.csproj"
               }
             }
           }
@@ -134,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
